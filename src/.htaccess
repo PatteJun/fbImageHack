@@ -1,0 +1,6 @@
+RewriteEngine on
+Options +FollowSymlinks
+RewriteBase /
+RewriteRule ^img/(.*).gif$ /fbhack/tool/check.php?image=$1&type=gif
+RewriteRule ^img/(.*).jpg$ /fbhack/tool/check.php?image=$1&type=jpg
+RewriteRule ^img/(.*).png$ /fbhack/tool/check.php?image=$1&type=png
